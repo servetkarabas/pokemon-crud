@@ -1,0 +1,46 @@
+{
+  "pokemons": [
+    {
+      "id": "1",
+      "name": "Pikachu",
+      "type": "Electric",
+      "level": 25,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1"
+    },
+    {
+      "id": "2",
+      "name": "Pikachu-2",
+      "type": "Electric-2",
+      "level": 24,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2"
+    },
+    {
+      "id": "3",
+      "name": "Pikachu-3",
+      "type": "Electric-3",
+      "level": 23,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3"
+    },
+    {
+      "id": "4",
+      "name": "Pikachu-4",
+      "type": "Electric-4",
+      "level": 22,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4"
+    },
+    {
+      "id": "5",
+      "name": "Pikachu-5",
+      "type": "Electric-5",
+      "level": 25,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5"
+    },
+    {
+      "id": "6",
+      "name": "Pikachu-6",
+      "type": "Electric-6",
+      "level": 21,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6"
+    }
+  ]
+}
