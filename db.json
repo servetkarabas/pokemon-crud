@@ -41,6 +41,14 @@
       "type": "Electric-6",
       "level": 21,
       "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/6"
+    },
+    {
+      "id": "yojunKzkl0o",
+      "name": "name-7",
+      "type": "Electric",
+      "level": 7,
+      "imageUrl": "https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/7"
     }
-  ]
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
 }
