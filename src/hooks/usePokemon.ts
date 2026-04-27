@@ -43,7 +43,7 @@ export const useUpdatePokemon = (id: string) => {
 
   return useMutation({
     mutationFn: (p) =>
-      api.put<Pokemon>("/pokemons/" + { id }, p).then((res) => res.data),
+      api.put<Pokemon>(`/pokemons/${id}`, p).then((res) => res.data),
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["pokemons"] });
     },
@@ -51,12 +51,13 @@ export const useUpdatePokemon = (id: string) => {
 };
 
 // useDeletePokemon() DELETE /pokemons/:id Sil
-export const useDeletePokemon = (id: string) => {
+export const useDeletePokemon = () => {
   const queryClient = useQueryClient();
 
   return useMutation({
-    mutationFn: () =>
-      api.delete<Pokemon>("/pokemons/" + { id }).then((res) => res.data),
+    mutationFn: (id: string) =>
+      api.delete<Pokemon>(`/pokemons/${id}`).then((res) => res.data),
+    
     onSuccess: () => {
       queryClient.invalidateQueries({ queryKey: ["pokemons"] });
     },
